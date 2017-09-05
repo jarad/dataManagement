@@ -1,0 +1,49 @@
+---
+title: "Data Management Big Picture"
+author: "Jarad Niemi"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Purpose of data management
+
+Data management is one piece of the pipeline in scientific discovery and 
+development. 
+The purpose of data management is to make data analysis and therefore science
+itself accurate, easy, and reproducible.
+
+## Goals for data management
+
+The main goals for data management are to 
+
+  - reduce the number of errors
+  - make errors easy to spot
+  - make errors easy to fix
+  - make it easy to build scripts to construct tidy data
+  - make it easy to build analysis scripts
+  - make data (and analyses) easy to disseminate.
+  
+## Principles
+
+Make a clear distinction between 
+[raw data and tidy data](http://www.jarad.me/data_management.html).
+
+## Questions
+
+- How do I know if a survey, e.g. bird point count, board flip, etc, had zero
+observations?
+
+## To do
+
+- [] Assign ownership - who is responsible for what
+- [] Rename columns using standards
+- [] Redo data (and time) variables into standard formats YYYY/MM/DD HH:MM:SS.
+- [] Redo keys (IDs) to be informative
+- [] Separate raw data from tidy data
+- [] Move raw data out of MS-Access?
+
+### 
